@@ -1,0 +1,8 @@
+font awesome cdn link
+https://cdnjs.com/libraries/font-awesome
+
+google font
+Nunito
+ExtraLight 200
+SemiBold 600
+Bold 700
