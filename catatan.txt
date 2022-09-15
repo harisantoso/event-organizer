@@ -11,8 +11,6 @@ ExtraLight 200
 SemiBold 600
 Bold 700
 
-M 13.14
-M 18.7
-masalah tidak ada tombol home saat ukuran kecil
+M 21.36
 
 $ alias graph="git log --all --decorate --oneline --graph"
