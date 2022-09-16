@@ -11,6 +11,8 @@ ExtraLight 200
 SemiBold 600
 Bold 700
 
-M 21.36
+M 24.00
 
 $ alias graph="git log --all --decorate --oneline --graph"
+atau
+$ alias graph="git log --all --oneline --graph"
