@@ -369,6 +369,50 @@ section {
   font-size: 1.6rem;
 }
 
+/* section contact  */
+.contact form {
+  max-width: 70rem;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.contact form .inputBox {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact form .inputBox input,
+.contact form textarea {
+  width: 100%;
+  background: #333;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 0.7rem 0;
+  font-size: 1.5rem;
+  color: #fff;
+  text-transform: none;
+}
+
+.contact fonm .inputBox input::placeholder,
+.contact form textarea::placeholder {
+  color: #eee;
+  text-transform: capitalize;
+}
+
+.contact fonm .inputBox input:focus,
+.contact form textarea:focus {
+  background: #444;
+}
+
+.contact fonm .inputBox input {
+  width: 49%;
+}
+
+.contact fonm textarea {
+  resize: none;
+}
+
 /* pengaturan layar output */
 /* media queries */
 @media (max-width: 991px) {
@@ -434,5 +478,8 @@ section {
 
   .home .home-slider .swiper-slide {
     width: 27rem;
+  }
+  .contact fonm .inputBox input {
+    width: 100%;
   }
 }
