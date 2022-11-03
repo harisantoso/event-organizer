@@ -11,7 +11,12 @@ ExtraLight 200
 SemiBold 600
 Bold 700
 
-M 43.00
+selesai 03112022
+
+* Masalah
+1. photo slidshow melewati batas container
+2. client's review melewati batas container
+3. boton tema color tidak berfungsi
 
 $ alias graph="git log --all --decorate --oneline --graph"
 atau
